@@ -1,1 +1,1 @@
-# Java-Basic-Projetcs
+# Java-Basic-Projects
