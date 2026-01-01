@@ -44,6 +44,6 @@ public class Main {
             default:
                 System.out.println("Invalid choose!");
         }
-
+        input.close();
     }
 }
