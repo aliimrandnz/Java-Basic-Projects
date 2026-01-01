@@ -10,19 +10,16 @@ public class Main {
         while(!isFound){
             System.out.print("Enter a number between 1-100 (100 included): ");
             int inputNumber = input.nextInt();
-
+            count++;
             if(inputNumber>randomNumber){
                 System.out.println("Too high! Try again.");
-                count++;
             }
             else if(inputNumber<randomNumber){
                 System.out.println("Too low! Try again.");
-                count++;
             }
             else {
                 System.out.println("You have found the number!");
                 isFound = true;
-                count++;
             }
         }
         System.out.println("You have found the number in " + count + " try!");
