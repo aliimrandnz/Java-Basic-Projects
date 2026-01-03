@@ -24,7 +24,7 @@ public class Main {
                 System.out.println("You exceeded the try limit for the PIN code. Please try again later.");
                 break;
             }
-            if (entered_pin_code == 1234) {
+            if (entered_pin_code == pin_code) {
                 System.out.println("             Welcome to ATM!");
                 welcome_message();
                 user_input = input.nextInt();
@@ -67,7 +67,7 @@ public class Main {
 
                 } while (user_input != -1);
             }
-        } while (entered_pin_code != 1234);
+        } while (entered_pin_code != pin_code);
 
     }
 
