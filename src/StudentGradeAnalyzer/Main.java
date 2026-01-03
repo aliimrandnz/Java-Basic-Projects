@@ -27,5 +27,6 @@ public class Main {
         System.out.println("The average grade of the class: " + avgGrade);
         System.out.println("The highest grade is: " + highestGrade);
         System.out.println("The lowest grade is: " + lowestGrade);
+        input.close();
     }
 }
