@@ -110,7 +110,7 @@ public class Main {
         withdraw = in.nextDouble();
         if (withdraw <= balance) {
             balance -= withdraw;
-            System.out.println("Withdraw process successfully completed. Your new account balance is " + balance + "$.");
+            System.out.println("Withdraw successfully completed. Your new account balance is " + balance + "$.");
         } else {
             System.out.println("You can't withdraw an amount more than your account balance.");
             check_balance(balance);
