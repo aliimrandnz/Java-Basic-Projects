@@ -68,7 +68,7 @@ public class Main {
                 } while (user_input != -1);
             }
         } while (entered_pin_code != pin_code);
-
+        input.close();
     }
 
     public static void welcome_message() {
